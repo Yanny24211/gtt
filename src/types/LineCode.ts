@@ -1,0 +1,1 @@
+export type LineCode = "LW" | "LE" | "GT" | "ST" | "RH" | "BR" | "MI";

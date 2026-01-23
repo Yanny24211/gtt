@@ -40,3 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 package-lock.json
+nextStopInfo.json
+stopDetails.json
+stops.json
+todaySchedule.json
+trips.json
+vehicles.json

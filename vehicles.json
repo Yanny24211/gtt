@@ -2,42 +2,9 @@
   "header": {
     "gtfs_realtime_version": "1.0",
     "incrementality": "FULL_DATASET",
-    "timestamp": 1769136933
+    "timestamp": 1769137879
   },
   "entity": [
-    {
-      "id": "20260122-41-41700",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-41-41700",
-          "route_id": "01260426-41",
-          "direction_id": 0,
-          "start_time": "18:35:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "2551",
-          "label": "41 - Pickering GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.8302841,
-          "longitude": -79.08355,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "00726",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
     {
       "id": "20260122-41-41691",
       "is_deleted": false,
@@ -57,15 +24,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.35272,
-          "longitude": -79.83158,
+          "latitude": 43.2634163,
+          "longitude": -79.9240341,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02185",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "00310",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -90,48 +57,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7724838,
-          "longitude": -79.29393,
+          "latitude": 43.78488,
+          "longitude": -79.232,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02816",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-56-56711",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-56-56711",
-          "route_id": "01260426-56",
-          "direction_id": 0,
-          "start_time": "19:10:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8402",
-          "label": "56 - DC Oshawa GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.8788338,
-          "longitude": -78.87697,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02872",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "00358",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -156,15 +90,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4328156,
-          "longitude": -79.80048,
+          "latitude": 43.31613,
+          "longitude": -79.8559341,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00138",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "stop_id": "02185",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -189,15 +123,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.585434,
-          "longitude": -79.66103,
+          "latitude": 43.49795,
+          "longitude": -79.73323,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00133",
+        "stop_id": "01441",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -222,15 +156,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5947151,
-          "longitude": -79.64758,
+          "latitude": 43.506382,
+          "longitude": -79.74557,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00133",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "stop_id": "02163",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -255,81 +189,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.532814,
-          "longitude": -79.61235,
+          "latitude": 43.63807,
+          "longitude": -79.44659,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "PO",
+        "stop_id": "EX",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136930,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-40-40750",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-40-40750",
-          "route_id": "01260426-40",
-          "direction_id": 0,
-          "start_time": "20:05:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8508",
-          "label": "40 - Richmond Hill Ctr",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.836216,
-          "longitude": -79.42893,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02771",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-40-40751",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-40-40751",
-          "route_id": "01260426-40",
-          "direction_id": 1,
-          "start_time": "20:05:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8524",
-          "label": "40 - Hamilton GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.25707,
-          "longitude": -79.87672,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "01012",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -354,48 +222,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.27048,
-          "longitude": -79.89262,
+          "latitude": 43.2577324,
+          "longitude": -79.87957,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02185",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-30-30750",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-30-30750",
-          "route_id": "01260426-30",
-          "direction_id": 0,
-          "start_time": "20:15:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8393",
-          "label": "30  - Hwy. 407 Bus Term",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.7583847,
-          "longitude": -79.61545,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "08041",
+        "stop_id": "01012",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -426,75 +261,9 @@
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02728",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769132598,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-92-92760",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-92-92760",
-          "route_id": "01260426-92",
-          "direction_id": 1,
-          "start_time": "20:25:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "2560",
-          "label": "92 - Yorkdale Term",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.7451668,
-          "longitude": -79.40635,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "00011",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-94-94750",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-94-94750",
-          "route_id": "01260426-94",
-          "direction_id": 1,
-          "start_time": "20:25:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8349",
-          "label": "94  - Square One",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.59465,
-          "longitude": -79.6469,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
         "stop_id": "00133",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136698,
+        "timestamp": 1769132598,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -525,7 +294,7 @@
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02728",
+        "stop_id": "00133",
         "current_status": "IN_TRANSIT_TO",
         "timestamp": 1769136718,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
@@ -552,15 +321,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.2777672,
-          "longitude": -79.78553,
+          "latitude": 43.33975,
+          "longitude": -79.80955,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02730",
+        "stop_id": "00177",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -585,48 +354,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6566658,
-          "longitude": -79.8400345,
+          "latitude": 43.6580658,
+          "longitude": -79.91575,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00215",
+        "stop_id": "02633",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-25-25760",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-25-25760",
-          "route_id": "01260426-25",
-          "direction_id": 0,
-          "start_time": "20:30:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8371",
-          "label": "25  - Square One",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.5303154,
-          "longitude": -79.72285,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02636",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -651,48 +387,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6069679,
-          "longitude": -79.6376648,
+          "latitude": 43.69875,
+          "longitude": -79.68255,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00132",
+        "stop_id": "08041",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-88-88830",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-88-88830",
-          "route_id": "01260426-88",
-          "direction_id": 0,
-          "start_time": "20:31:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8403",
-          "label": "88  - Trent U",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 44.3015327,
-          "longitude": -78.33522,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02502",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136858,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -717,15 +420,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.8398323,
-          "longitude": -79.36445,
+          "latitude": 43.787,
+          "longitude": -79.5228653,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02771",
+        "stop_id": "02674",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -750,15 +453,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5941,
-          "longitude": -79.73957,
+          "latitude": 43.6545334,
+          "longitude": -79.7147141,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "01243",
+        "stop_id": "00354",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -783,15 +486,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.1794,
-          "longitude": -79.24789,
+          "latitude": 43.1354675,
+          "longitude": -79.1322,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02402",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "stop_id": "02404",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -816,15 +519,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5391655,
-          "longitude": -79.87248,
+          "latitude": 43.46895,
+          "longitude": -80.07263,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02151",
+        "stop_id": "00337",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -849,48 +552,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4129829,
-          "longitude": -80.32798,
+          "latitude": 43.41415,
+          "longitude": -80.33072,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02150",
+        "stop_id": "02184",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-LW-1733",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-LW-1733",
-          "route_id": "01260426-LW",
-          "direction_id": 1,
-          "start_time": "20:47:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "617",
-          "label": "LW - West Harbour GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.3141,
-          "longitude": -79.85294,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "AL",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136929,
+        "timestamp": 1769137398,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -915,15 +585,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6913033,
-          "longitude": -79.74229,
+          "latitude": 43.7060966,
+          "longitude": -79.5787,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "BE",
+        "stop_id": "WE",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136931,
+        "timestamp": 1769137877,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -948,15 +618,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.69827,
-          "longitude": -79.68343,
+          "latitude": 43.783268,
+          "longitude": -79.52438,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "08041",
+        "stop_id": "02673",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136878,
+        "timestamp": 1769137698,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -981,15 +651,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.53417,
-          "longitude": -79.89232,
+          "latitude": 43.4651,
+          "longitude": -80.08645,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02151",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "stop_id": "00337",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1014,48 +684,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 44.25235,
-          "longitude": -79.60112,
+          "latitude": 44.35665,
+          "longitude": -79.64695,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00087",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-12-12812",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-12-12812",
-          "route_id": "01260426-12",
-          "direction_id": 0,
-          "start_time": "20:57:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "2552",
-          "label": "12B - Burlington GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.3396339,
-          "longitude": -79.80933,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "00177",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136358,
+        "stop_id": "01524",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1080,15 +717,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.68675,
-          "longitude": -79.76282,
+          "latitude": 43.6733665,
+          "longitude": -79.82222,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00221",
+        "stop_id": "01153",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1113,15 +750,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4253159,
-          "longitude": -80.07835,
+          "latitude": 43.49735,
+          "longitude": -80.18491,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00337",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "02677",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137818,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1146,15 +783,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.48355,
-          "longitude": -79.76697,
+          "latitude": 43.5681343,
+          "longitude": -79.6770859,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02163",
+        "stop_id": "00132",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1179,15 +816,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.62977,
-          "longitude": -79.61508,
+          "latitude": 43.5254822,
+          "longitude": -79.7289658,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02658",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "stop_id": "02163",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1212,15 +849,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.83827,
-          "longitude": -79.4061356,
+          "latitude": 43.7853661,
+          "longitude": -79.52295,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "02674",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1245,48 +882,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5490341,
-          "longitude": -79.70247,
+          "latitude": 43.6435165,
+          "longitude": -79.61252,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00132",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-96-96781",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-96-96781",
-          "route_id": "01260426-96",
-          "direction_id": 0,
-          "start_time": "21:05:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8543",
-          "label": "96B - DC Oshawa GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.8652153,
-          "longitude": -78.93715,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "00031",
+        "stop_id": "02659",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1311,15 +915,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6178551,
-          "longitude": -79.4950256,
+          "latitude": 43.64439,
+          "longitude": -79.3817,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "MI",
+        "stop_id": "UN",
         "current_status": "STOPPED_AT",
-        "timestamp": 1769136928,
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1344,48 +948,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.61335,
-          "longitude": -79.75677,
+          "latitude": 43.5378838,
+          "longitude": -79.8805847,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02586",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-LE-9037",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-LE-9037",
-          "route_id": "01260426-LE",
-          "direction_id": 1,
-          "start_time": "21:09:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "621",
-          "label": "LE - Union Station",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.69606,
-          "longitude": -79.26971,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "DA",
+        "stop_id": "02205",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136933,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1410,48 +981,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 44.053257,
-          "longitude": -79.45519,
+          "latitude": 43.91757,
+          "longitude": -79.5264,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "AU",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136929,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-27-27781",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-27-27781",
-          "route_id": "01260426-27",
-          "direction_id": 1,
-          "start_time": "21:15:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "2564",
-          "label": "27B - Meadowvale GO",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.6099,
-          "longitude": -79.7365341,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02586",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "KC",
+        "current_status": "STOPPED_AT",
+        "timestamp": 1769137877,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1476,15 +1014,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.59508,
-          "longitude": -79.75173,
+          "latitude": 43.5671844,
+          "longitude": -79.7182846,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02598",
+        "stop_id": "01447",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1509,15 +1047,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.724884,
-          "longitude": -79.44894,
+          "latitude": 43.7805824,
+          "longitude": -79.4156647,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00019",
+        "stop_id": "01661",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1542,15 +1080,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.59905,
-          "longitude": -79.6403656,
+          "latitude": 43.7018661,
+          "longitude": -79.6926651,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00132",
+        "stop_id": "08041",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1575,15 +1113,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.50852,
-          "longitude": -79.6388855,
+          "latitude": 43.394165,
+          "longitude": -79.74585,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "OA",
+        "stop_id": "AP",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136932,
+        "timestamp": 1769137877,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1608,15 +1146,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.77997,
-          "longitude": -79.25013,
+          "latitude": 43.7730675,
+          "longitude": -79.332016,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02816",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "02757",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1641,15 +1179,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.715683,
-          "longitude": -79.52333,
+          "latitude": 43.7377319,
+          "longitude": -79.43025,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00022",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "00019",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1674,15 +1212,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.46425,
-          "longitude": -80.0886841,
+          "latitude": 43.5425339,
+          "longitude": -79.86152,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00337",
+        "stop_id": "02151",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1707,15 +1245,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7809143,
-          "longitude": -79.1295853,
+          "latitude": 43.8541832,
+          "longitude": -79.01499,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "RO",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136931,
+        "stop_id": "WH",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137874,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1740,48 +1278,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4248352,
-          "longitude": -79.71381,
+          "latitude": 43.55332,
+          "longitude": -79.59005,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "OA",
+        "stop_id": "PO",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136928,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-21-21801",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-21-21801",
-          "route_id": "01260426-21",
-          "direction_id": 1,
-          "start_time": "21:25:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8436",
-          "label": "21C - Square One",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.5835,
-          "longitude": -79.62168,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "02751",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137875,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1806,48 +1311,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.76612,
-          "longitude": -79.27593,
+          "latitude": 43.6648254,
+          "longitude": -79.3442,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "KE",
+        "stop_id": "UN",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136930,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-GT-3036",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-GT-3036",
-          "route_id": "01260426-GT",
-          "direction_id": 0,
-          "start_time": "21:26:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "604",
-          "label": "GT - Union Station",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.6576576,
-          "longitude": -79.450676,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "BL",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136930,
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1872,15 +1344,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.1790848,
-          "longitude": -79.2518,
+          "latitude": 43.18802,
+          "longitude": -79.43958,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02402",
+        "stop_id": "02621",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1905,15 +1377,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.49535,
-          "longitude": -79.6735,
+          "latitude": 43.3199844,
+          "longitude": -79.8519,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "01010",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137718,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1938,15 +1410,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.57797,
-          "longitude": -79.61905,
+          "latitude": 43.57638,
+          "longitude": -79.6832657,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02738",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "stop_id": "01192",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -1971,15 +1443,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4097328,
-          "longitude": -80.39352,
+          "latitude": 43.4382668,
+          "longitude": -80.22685,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02184",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "stop_id": "00337",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2004,15 +1476,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7068977,
-          "longitude": -79.53552,
+          "latitude": 43.7019234,
+          "longitude": -79.6890945,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "ET",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136933,
+        "stop_id": "BE",
+        "current_status": "STOPPED_AT",
+        "timestamp": 1769137877,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2037,15 +1509,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6502838,
-          "longitude": -79.5654,
+          "latitude": 43.5967331,
+          "longitude": -79.73901,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "01246",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136838,
+        "stop_id": "00196",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137758,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2070,15 +1542,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.83381,
-          "longitude": -79.08025,
+          "latitude": 43.75676,
+          "longitude": -79.1890945,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "PIN",
+        "stop_id": "GU",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136930,
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2103,15 +1575,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6411,
-          "longitude": -79.38023,
+          "latitude": 43.8377,
+          "longitude": -79.41098,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "01803",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136278,
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2136,15 +1608,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4571152,
-          "longitude": -80.4954147,
+          "latitude": 43.4333153,
+          "longitude": -80.44795,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02186",
+        "stop_id": "02204",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2169,15 +1641,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.34007,
-          "longitude": -79.80977,
+          "latitude": 43.24305,
+          "longitude": -79.7593,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00177",
+        "stop_id": "02730",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2202,15 +1674,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5503845,
-          "longitude": -79.70235,
+          "latitude": 43.5461655,
+          "longitude": -79.85772,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02215",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "stop_id": "02151",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2235,15 +1707,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6898,
-          "longitude": -79.80458,
+          "latitude": 43.6818,
+          "longitude": -79.75446,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00216",
+        "stop_id": "01313",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2268,15 +1740,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.2578659,
-          "longitude": -79.9123,
+          "latitude": 43.4679832,
+          "longitude": -79.78392,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "00132",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136818,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2301,15 +1773,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.63707,
-          "longitude": -79.41522,
+          "latitude": 43.5853233,
+          "longitude": -79.55526,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "EX",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136931,
+        "stop_id": "PO",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2334,15 +1806,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 44.3500671,
-          "longitude": -78.29932,
+          "latitude": 44.2753,
+          "longitude": -78.3407,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02502",
+        "stop_id": "02503",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136878,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2367,15 +1839,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7379341,
-          "longitude": -79.42993,
+          "latitude": 43.77745,
+          "longitude": -79.27202,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00011",
+        "stop_id": "02816",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2400,15 +1872,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.776432,
-          "longitude": -79.4147339,
+          "latitude": 43.7247162,
+          "longitude": -79.44912,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "01651",
+        "stop_id": "00019",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2433,15 +1905,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.73215,
-          "longitude": -79.43955,
+          "latitude": 43.7168846,
+          "longitude": -79.51718,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00019",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136218,
+        "stop_id": "00020",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2466,15 +1938,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.464817,
-          "longitude": -79.6874847,
+          "latitude": 43.5044327,
+          "longitude": -79.7419,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00902",
+        "stop_id": "01435",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2499,48 +1971,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.65241,
-          "longitude": -79.3516541,
+          "latitude": 43.7345123,
+          "longitude": -79.23994,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "DA",
+        "stop_id": "EG",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136931,
-        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
-        "occupancy_status": "EMPTY"
-      },
-      "alert": null
-    },
-    {
-      "id": "20260122-16-16840",
-      "is_deleted": false,
-      "trip_update": null,
-      "vehicle": {
-        "trip": {
-          "trip_id": "20260122-16-16840",
-          "route_id": "01260426-16",
-          "direction_id": 0,
-          "start_time": "21:55:00",
-          "start_date": "20260122",
-          "schedule_relationship": "SCHEDULED"
-        },
-        "vehicle": {
-          "id": "8416",
-          "label": "16  - Union Station",
-          "license_plate": ""
-        },
-        "position": {
-          "latitude": 43.2526321,
-          "longitude": -79.868515,
-          "bearing": 0,
-          "odometer": 0,
-          "speed": 0
-        },
-        "stop_id": "00141",
-        "current_status": "INCOMING_AT",
-        "timestamp": 1769136898,
+        "timestamp": 1769137869,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2565,15 +2004,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.9999847,
-          "longitude": -79.45897,
+          "latitude": 44.06,
+          "longitude": -79.4577,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00081",
+        "stop_id": "02742",
         "current_status": "INCOMING_AT",
-        "timestamp": 1769136918,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2598,15 +2037,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.1402168,
-          "longitude": -80.26515,
+          "latitude": 43.15455,
+          "longitude": -80.23925,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02617",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769134578,
+        "stop_id": "02608",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2631,15 +2070,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6439667,
-          "longitude": -79.3776855,
+          "latitude": 43.62398,
+          "longitude": -79.49665,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "02300",
+        "stop_id": "02751",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2664,15 +2103,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7451668,
-          "longitude": -79.40646,
+          "latitude": 43.7253342,
+          "longitude": -79.4494,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00011",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136178,
+        "stop_id": "00019",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2697,15 +2136,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.2527,
-          "longitude": -79.8684158,
+          "latitude": 43.26215,
+          "longitude": -79.89688,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00141",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136878,
+        "stop_id": "00178",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2730,15 +2169,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.64503,
-          "longitude": -79.37896,
+          "latitude": 43.6867332,
+          "longitude": -79.29846,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "UN",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136930,
+        "stop_id": "KE",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137874,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2763,15 +2202,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6453323,
-          "longitude": -79.378,
+          "latitude": 43.6691,
+          "longitude": -79.45,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "UN",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136930,
+        "stop_id": "DW",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137875,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2796,15 +2235,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.64491,
-          "longitude": -79.37866,
+          "latitude": 43.64921,
+          "longitude": -79.4422,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "UN",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136933,
+        "stop_id": "BL",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2829,15 +2268,48 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.2529,
-          "longitude": -79.86964,
+          "latitude": 43.25745,
+          "longitude": -79.8714,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00141",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769134018,
+        "stop_id": "01006",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-40-40831",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-40-40831",
+          "route_id": "01260426-40",
+          "direction_id": 1,
+          "start_time": "22:05:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8508",
+          "label": "40 - Hamilton GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.83383,
+          "longitude": -79.43085,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02021",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137838,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2862,15 +2334,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.3139267,
-          "longitude": -79.85316,
+          "latitude": 43.3419571,
+          "longitude": -79.80773,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "AL",
+        "stop_id": "BU",
         "current_status": "STOPPED_AT",
-        "timestamp": 1769136933,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2895,15 +2367,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.9171677,
-          "longitude": -80.08643,
+          "latitude": 43.9136,
+          "longitude": -80.09045,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "00349",
-        "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136578,
+        "stop_id": "02653",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137798,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2928,15 +2400,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6452866,
-          "longitude": -79.37895,
+          "latitude": 43.64173,
+          "longitude": -79.395134,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "UN",
-        "current_status": "STOPPED_AT",
-        "timestamp": 1769136929,
+        "stop_id": "EX",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137875,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2961,15 +2433,147 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.87073,
-          "longitude": -78.88538,
+          "latitude": 43.8666878,
+          "longitude": -78.89719,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
-        "stop_id": "OS",
+        "stop_id": "WH",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137874,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-41-41811",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-41-41811",
+          "route_id": "01260426-41",
+          "direction_id": 1,
+          "start_time": "22:10:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8489",
+          "label": "41 - Hamilton GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.8308678,
+          "longitude": -79.08477,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "00147",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137878,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-18-18880",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-18-18880",
+          "route_id": "01260426-18",
+          "direction_id": 0,
+          "start_time": "22:10:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8429",
+          "label": "18E - Union Station",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.266,
+          "longitude": -79.86595,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02652",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1769137838,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-19-19830",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-19-19830",
+          "route_id": "01260426-19",
+          "direction_id": 0,
+          "start_time": "22:15:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "2532",
+          "label": "19 - Finch Terminal",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.5950661,
+          "longitude": -79.6495,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "00132",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137658,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-LW-1037",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-LW-1037",
+          "route_id": "01260426-LW",
+          "direction_id": 1,
+          "start_time": "22:17:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "621",
+          "label": "LW - Aldershot GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.6450729,
+          "longitude": -79.3776855,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "UN",
         "current_status": "STOPPED_AT",
-        "timestamp": 1769136929,
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -2994,7 +2598,7 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.54485,
+          "latitude": 43.5448837,
           "longitude": -80.24654,
           "bearing": 0,
           "odometer": 0,
@@ -3002,7 +2606,40 @@
         },
         "stop_id": "02519",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137798,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-33-33850",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-33-33850",
+          "route_id": "01260426-33",
+          "direction_id": 0,
+          "start_time": "22:21:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "2501",
+          "label": "33H - Bramalea GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.6559677,
+          "longitude": -79.9197845,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02413",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3060,15 +2697,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.90055,
-          "longitude": -79.26303,
+          "latitude": 43.9005623,
+          "longitude": -79.2630157,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "MJ",
         "current_status": "STOPPED_AT",
-        "timestamp": 1769136929,
+        "timestamp": 1769137876,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3093,15 +2730,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.7018547,
-          "longitude": -79.6891556,
+          "latitude": 43.70186,
+          "longitude": -79.68914,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "BE",
         "current_status": "STOPPED_AT",
-        "timestamp": 1769136929,
+        "timestamp": 1769137874,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3126,15 +2763,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.8706665,
-          "longitude": -78.8862839,
+          "latitude": 43.8706322,
+          "longitude": -78.8861,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "00159",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769135358,
+        "timestamp": 1769137698,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3174,6 +2811,39 @@
       "alert": null
     },
     {
+      "id": "20260122-33-33861",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-33-33861",
+          "route_id": "01260426-33",
+          "direction_id": 1,
+          "start_time": "22:30:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8312",
+          "label": "33 - U of Guelph",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.7435,
+          "longitude": -79.40632,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "00011",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137538,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
       "id": "20260122-25-25830",
       "is_deleted": false,
       "trip_update": null,
@@ -3192,7 +2862,7 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.4744339,
+          "latitude": 43.47442,
           "longitude": -80.54047,
           "bearing": 0,
           "odometer": 0,
@@ -3200,7 +2870,40 @@
         },
         "stop_id": "02799",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136898,
+        "timestamp": 1769137838,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-16-16831",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-16-16831",
+          "route_id": "01260426-16",
+          "direction_id": 1,
+          "start_time": "22:30:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8517",
+          "label": "16  - Hamilton GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.64465,
+          "longitude": -79.37797,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02300",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3258,15 +2961,15 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.6434,
-          "longitude": -79.37165,
+          "latitude": 43.6442833,
+          "longitude": -79.3777,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "02300",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136918,
+        "timestamp": 1769137858,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3306,6 +3009,72 @@
       "alert": null
     },
     {
+      "id": "20260122-48-48841",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-48-48841",
+          "route_id": "01260426-48",
+          "direction_id": 1,
+          "start_time": "22:45:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8393",
+          "label": "48 - U of Guelph",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.7828,
+          "longitude": -79.52355,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02674",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137478,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-56-56841",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-56-56841",
+          "route_id": "01260426-56",
+          "direction_id": 0,
+          "start_time": "22:50:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "2455",
+          "label": "56 - DC Oshawa GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.46927,
+          "longitude": -79.69407,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "00137",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
       "id": "20260122-70-70861",
       "is_deleted": false,
       "trip_update": null,
@@ -3332,7 +3101,7 @@
         },
         "stop_id": "00121",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136778,
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },
@@ -3357,15 +3126,81 @@
           "license_plate": ""
         },
         "position": {
-          "latitude": 43.5238838,
-          "longitude": -79.867,
+          "latitude": 43.5239,
+          "longitude": -79.86698,
           "bearing": 0,
           "odometer": 0,
           "speed": 0
         },
         "stop_id": "00194",
         "current_status": "IN_TRANSIT_TO",
-        "timestamp": 1769136858,
+        "timestamp": 1769137878,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-36-36861",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-36-36861",
+          "route_id": "01260426-36",
+          "direction_id": 1,
+          "start_time": "23:25:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8536",
+          "label": "36B - Bramalea Term",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.7444344,
+          "longitude": -79.4086,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "00011",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137818,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20260122-16-16861",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20260122-16-16861",
+          "route_id": "01260426-16",
+          "direction_id": 1,
+          "start_time": "23:30:00",
+          "start_date": "20260122",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "8515",
+          "label": "16  - Hamilton GO",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.6435165,
+          "longitude": -79.37165,
+          "bearing": 0,
+          "odometer": 0,
+          "speed": 0
+        },
+        "stop_id": "02300",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1769137878,
         "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
         "occupancy_status": "EMPTY"
       },

@@ -43,3 +43,5 @@ GO Train Tracker ETA is a real-time web application that displays estimated arri
    ```bash
    git clone https://github.com/your-username/gtt-eta.git
    cd gtt-eta
+   npm i
+   npm run dev

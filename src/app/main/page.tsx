@@ -17,37 +17,62 @@ function getNextNonWaypoint(
   line?: LineCode,
   currentStopCode?: StopCode,
   direction?: string, 
+  nextStop?: string, 
 ) {
   if(!currentStopCode || !line || !direction){
     return undefined;
   }
   else{
+    //if alr a non-waypoint return it's name
     if(!stopNames[line][currentStopCode]?.isWaypoint){
       return stopNames[line][currentStopCode]?.stopName;
     }
-    const stops = Object.values(stopNames[line]);
 
+    //get all stops for that line   
+    const stops = Object.values(stopNames[line]);
     const lineDirection = lineInfo[line].lineDirection;
+
+    //get index of current stop
     const currentIndex = stops.findIndex(
       stop => stop.stopCode === currentStopCode
-      );
-
+    );
     if (currentIndex === -1) return undefined;
-    if(direction == lineDirection){
-      for (let i = currentIndex + 1; i < stops.length; i++) {
-        if (!stops[i].isWaypoint) {
-          return stops[i].stopName;
-        }
-      }
-    }
-    else{
-      for (let i = currentIndex - 1; i >= 0; i--) {
-        if (!stops[i].isWaypoint) {
-          return stops[i].stopName;
-        }
-      }
-    }
 
+    //based on train travel direction and desired next stop, return next non-waypoint
+    const traverseDir = direction === lineDirection 
+    if(nextStop == 'prev'){
+        if(traverseDir){
+            for (let i = currentIndex - 1; i >= 0; i--) {
+                if (!stops[i].isWaypoint) {
+                    return stops[i].stopName;
+                }
+            }
+        }else{
+            for (let i = currentIndex + 1; i < stops.length; i++) {
+                if (!stops[i].isWaypoint) {
+                    return stops[i].stopName;
+                }
+            }
+        }
+    }
+    if(nextStop == 'next'){
+        if(traverseDir){
+            for (let i = currentIndex + 1; i < stops.length; i++) {
+                if (!stops[i].isWaypoint) {
+                    return stops[i].stopName;
+                }
+            }
+        }else{
+            for (let i = currentIndex - 1; i >= 0; i--) {
+                if (!stops[i].isWaypoint) {
+                    return stops[i].stopName;
+                }
+            }
+        }
+    }
+    if(nextStop == 'curr'){
+        return stopNames[line][currentStopCode]?.stopName;
+    }
   }  
   return undefined; // no next non-waypoint
 }
@@ -81,14 +106,17 @@ export default function Page( { currentTrips } : PageProps) {
 
     useEffect(() => {
         const poll = async () => {
-            const resTrips = await fetch("/api/serviceAtGlance", { cache: "no-store" })
-            .then(r => r.json() as Promise<Record<string, Trip>>);
+            const resTrips = await fetch("/api/serviceAtGlance", { cache: "no-store" }).then(r => r.json() as Promise<Record<string, Trip>>);
+            const resCurrentStop = await fetch("/api/nextStopInfo", { cache: "no-store" }).then(r => r.json());
+            
             
             const goStops = Object.entries(resTrips).map(([key, resTrip]) => {
             return [resTrip.NextStopCode, resTrip.TripNumber];
-            })
+            }) 
             setStops(goStops);
             setTrips(resTrips);
+            console.log(resTrips)
+            console.log(resCurrentStop);
         };
         
         //polls every 20 seconds
@@ -113,9 +141,10 @@ export default function Page( { currentTrips } : PageProps) {
     <div style={{"display":"flex", "width": "100vw", "flexWrap": "wrap", "justifyContent":"space-evenly", "alignItems": "center"}}>
         {Object.entries(trips).map(([key, trip]) => {
         const lineCode = trip.LineCode?.trim().toUpperCase() as LineCode;
-        const nextStopName = getNextNonWaypoint(lineCode, trip.NextStopCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase());//stopNames[lineCode][trip.NextStopCode?.trim().toUpperCase()]; 
-        const prevStopName = getNextNonWaypoint(lineCode, trip.PrevStopCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase());//stopNames[lineCode][trip.PrevStopCode?.trim().toUpperCase()];
-        const currStopName = getNextNonWaypoint(lineCode, trip.AtStationCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase());//stopNames[lineCode][trip.AtStationCode?.trim().toUpperCase()];
+        const nextStopName = getNextNonWaypoint(lineCode, trip.NextStopCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase(), "next");//stopNames[lineCode][trip.NextStopCode?.trim().toUpperCase()]; 
+        const prevStopName = getNextNonWaypoint(lineCode, trip.PrevStopCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase(), "prev");//stopNames[lineCode][trip.PrevStopCode?.trim().toUpperCase()];
+        const currStopName = getNextNonWaypoint(lineCode, trip.AtStationCode?.trim().toUpperCase(), trip.VariantDir.trim().toUpperCase(), "curr");//stopNames[lineCode][trip.AtStationCode?.trim().toUpperCase()];
+        if(lineCode ==="ST"){console.log(trip.PrevStopCode?.trim().toUpperCase(), prevStopName,trip.AtStationCode?.trim().toUpperCase(), currStopName, lineCode, trip.NextStopCode?.trim().toUpperCase(), nextStopName)};
         const timeStart = to12Hour(trip.StartTime);
         const timeEnd = to12Hour(trip.EndTime);
         const line = lineInfo[lineCode];

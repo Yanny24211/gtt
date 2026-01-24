@@ -232,7 +232,7 @@ export const stopNames: Record<LineCode, Record<StopCode, StopAttributes>> = {
     PARL: { isWaypoint: true, stopCode: "PARL", stopName: "Parliament St." },
     CHER: { isWaypoint: true, stopCode: "CHER", stopName: "Cherry St" },
     KING: { isWaypoint: true, stopCode: "KING", stopName: "USRC/Kingston Boundary" },
-    NBCH: { isWaypoint: true, stopCode: "NBCH", stopName: "Hot Box MP 330.30 Cherry St" },
+    HBCH: { isWaypoint: true, stopCode: "HBCH", stopName: "Hot Box MP 330.30 Cherry St" },
     CNDA: { isWaypoint: true, stopCode: "CNDA", stopName: "CN Danforth" },
     DA: { isWaypoint: true, stopCode: "DA", stopName: "Danforth GO" },
     SCAJ: { isWaypoint: true, stopCode: "SCAJ", stopName: "Scarborough Junction" },

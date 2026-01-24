@@ -8,7 +8,7 @@ GO Train Tracker ETA is a real-time web application that displays estimated arri
 
 ## Features
 
-- Real-time estimated arrival times for GO Train trips
+- Real-time estimated arrival times for GO Train trips (Updated every 20s)
 - Live trip and stop data fetched from GO Transit (Metrolinx)
 - Automatic polling to keep data fresh
 - Type-safe data handling with TypeScript
@@ -16,6 +16,13 @@ GO Train Tracker ETA is a real-time web application that displays estimated arri
 - Deployed and hosted on Vercel
 
 ---
+
+## Coming Soon
+- Add Real-time service updates to each line
+- Add train platform numbers to applicable trips
+- Add UP lines
+- Add filtering based on line, trip time, destination
+- Add support for mapping journey
 
 ## Tech Stack
 

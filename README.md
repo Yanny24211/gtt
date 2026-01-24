@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GO Train Tracker ETA (GTT ETA)
+
+GO Train Tracker ETA is a real-time web application that displays estimated arrival times, trip details, and stop information for GO Transit trains across the Greater Toronto and Hamilton Area (GTHA). The application consumes live transit data and presents it in a clean, readable interface to help riders better plan their trips.
+
+🚆 Live site: https://gtt-eta.vercel.app
+
+---
+
+## Features
+
+- Real-time estimated arrival times for GO Train trips
+- Live trip and stop data fetched from GO Transit (Metrolinx)
+- Automatic polling to keep data fresh
+- Type-safe data handling with TypeScript
+- Fast and responsive UI built with Next.js
+- Deployed and hosted on Vercel
+
+---
+
+## Tech Stack
+
+- **Next.js (App Router)**
+- **React**
+- **TypeScript**
+- **Vercel**
+- **Leaflet.js** (for mapping, if enabled)
+- **GO Transit / Metrolinx API**
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18+
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/gtt-eta.git
+   cd gtt-eta

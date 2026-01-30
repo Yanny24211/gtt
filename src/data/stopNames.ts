@@ -63,7 +63,7 @@ export const stopNames: Record<LineCode, Record<StopCode, StopAttributes>> = {
     SEAWAY: { isWaypoint: true, stopCode: "SEAWAY", stopName: "Seaway Bridge 6" },
     CLIFTON: { isWaypoint: true, stopCode: "CLIFTON", stopName: "Clifton" },
     CLIE: { isWaypoint: true, stopCode: "CLIE", stopName: "Clifton East" },
-    NF: { isWaypoint: false, stopCode: "NF", stopName: "Niagara Falls GO" }
+    NI: { isWaypoint: false, stopCode: "NF", stopName: "Niagara Falls GO" }
   },
   MI: {
     UN: { isWaypoint: false, stopCode: "UN", stopName: "Union Station GO" },

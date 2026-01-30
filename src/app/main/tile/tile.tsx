@@ -15,11 +15,14 @@ type TileProps = {
     tripEnd: string, 
     currentlyMoving: boolean,
     lineColor: string,
+    tripID?: string
+    firstStopCode?: string;
+    lastStopCode?: string;
 }
 
 
 
-export default function Tile({ trainLine, lineCode, currentStop, prevStop, nextStop, lat, long, platform, numCars, direction, tripStart, tripEnd, currentlyMoving, lineColor}: TileProps){
+export default function Tile({ trainLine, lineCode, currentStop, prevStop, nextStop, lat, long, platform, numCars, direction, tripStart, tripEnd, currentlyMoving, lineColor, tripID, firstStopCode, lastStopCode }: TileProps){
     return(
         <div className="tile-box-0 text-m font-black text-eggshell" style ={{"display":"flex", "justifyContent":"space-evenly", "backgroundColor": lineColor, "margin": "20px", "width":"500px"}}>
             <div className="tile-box-1">                
@@ -35,6 +38,9 @@ export default function Tile({ trainLine, lineCode, currentStop, prevStop, nextS
                 <div>Current Stop: {currentStop ? currentStop : `En Route to ${nextStop}`}</div>
                 <div># Of Coaches: {numCars}</div>
                 <div>Moving?: {currentlyMoving ? 'Yes' : 'No'}</div>
+                <div>Trip ID: {tripID}</div>
+                <div>First Stop: {firstStopCode}</div>
+                <div>Last Stop: {lastStopCode}</div>
             </div>
         </div>
     )

@@ -14,4 +14,7 @@ export type Trip = {
   EndTime: string;
   IsInMotion: boolean;
   TripNumber: string;
+  FirstStopCode: string;
+  LastStopCode: string;
 };
+
